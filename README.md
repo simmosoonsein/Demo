@@ -116,7 +116,7 @@ Running the command below will trigger all scenarios with tag specified in **ful
 ``
 
 #### Change browser for test execution
-```
+
 1. If running test via plug-and-play change in **configuration.json** browser capability parameters
 2. If running test via plug-and-play change in **capabilities.json** browser capability parameters
 
@@ -155,6 +155,7 @@ Valid capability file structure:
    }
  }
 ```
+
 In this case there would be 4 different suites. One for each device in the list.
 
 ## How to add new tests?
