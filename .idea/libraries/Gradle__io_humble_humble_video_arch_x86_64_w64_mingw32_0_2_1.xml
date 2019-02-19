@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.humble:humble-video-arch-x86_64-w64-mingw32:0.2.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.humble/humble-video-arch-x86_64-w64-mingw32/0.2.1/836f73e15a137882cd7d49d7f726ad8723521632/humble-video-arch-x86_64-w64-mingw32-0.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.humble/humble-video-arch-x86_64-w64-mingw32/0.2.1/bfeb1f500fea8cc7b3efb6a0954de4dc08fb5f23/humble-video-arch-x86_64-w64-mingw32-0.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

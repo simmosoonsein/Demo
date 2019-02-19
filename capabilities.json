@@ -1,0 +1,29 @@
+{
+  "set": {
+    "browser": [
+      {
+        "capability": "firefox",
+        "UIType": "PNB",
+        "deviceName": "Local Firefox"
+      }
+    ],
+    "android": [
+      {
+        "capability": "android",
+        "UIType": "MNB",
+        "deviceName": "Local Android device",
+        "remote": "http://0.0.0.0:9999/wd/hub",
+        "fullReset": false,
+        "noReset": false,
+        "newCommandTimeout": "5000"
+      }
+    ],
+    "mobilebrowser": [
+      {
+        "capability": "firefox",
+        "UIType": "MNB",
+        "deviceName": "Local Firefox"
+      }
+    ]
+  }
+}
