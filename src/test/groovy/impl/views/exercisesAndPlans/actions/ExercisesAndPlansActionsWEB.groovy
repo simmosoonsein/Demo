@@ -10,12 +10,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions
 import static impl.helpers.TestDataManager.addTestData
 import static impl.helpers.TestDataManager.getTestData
 
-class ExercisesAndPlansActionsPNB implements IExercisesAndPlansActions, ActionsDesktopWeb {
+class ExercisesAndPlansActionsWEB implements IExercisesAndPlansActions, ActionsDesktopWeb {
     Device device
     ExercisesAndPlansPage exercisesAndPlansPage
 
 
-    ExercisesAndPlansActionsPNB(Device device) {
+    ExercisesAndPlansActionsWEB(Device device) {
         this.device = device
         this.exercisesAndPlansPage = new ExercisesAndPlansPage(device)
     }

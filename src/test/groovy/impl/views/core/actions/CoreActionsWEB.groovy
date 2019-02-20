@@ -10,12 +10,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions
 import static impl.helpers.TestDataManager.addTestData
 import static impl.helpers.TestDataManager.getTestData
 
-class CoreActionsPNB implements ICoreActions, ActionsDesktopWeb {
+class CoreActionsWEB implements ICoreActions, ActionsDesktopWeb {
 
     Device device
     CorePage corePage
 
-    CoreActionsPNB(Device device) {
+    CoreActionsWEB(Device device) {
         this.device = device
         this.corePage = new CorePage(device)
     }

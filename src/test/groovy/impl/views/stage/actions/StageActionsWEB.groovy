@@ -7,12 +7,12 @@ import io.cify.framework.actions.ActionsDesktopWeb
 import io.cify.framework.core.Device
 import org.openqa.selenium.support.ui.ExpectedConditions
 
-class StageActionsPNB implements IStageActions, ActionsDesktopWeb {
+class StageActionsWEB implements IStageActions, ActionsDesktopWeb {
     Device device
     StagePage stagePage
 
 
-    StageActionsPNB(Device device) {
+    StageActionsWEB(Device device) {
         this.device = device
         this.stagePage = new StagePage(device)
     }

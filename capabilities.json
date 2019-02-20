@@ -3,14 +3,14 @@
     "browser": [
       {
         "capability": "firefox",
-        "UIType": "PNB",
+        "UIType": "WEB",
         "deviceName": "Local Firefox"
       }
     ],
     "android": [
       {
         "capability": "android",
-        "UIType": "MNB",
+        "UIType": "MOB",
         "deviceName": "Local Android device",
         "remote": "http://0.0.0.0:9999/wd/hub",
         "fullReset": false,
@@ -21,7 +21,7 @@
     "mobilebrowser": [
       {
         "capability": "firefox",
-        "UIType": "MNB",
+        "UIType": "MOB",
         "deviceName": "Local Firefox"
       }
     ]
