@@ -60,27 +60,6 @@ Options for running tests with Cify Framework:
 * Right click and play (plug-and-play)
 * Run from command line (cify-runner)
 
-Default device configuration is (configuration.json): 
-
-```
-{
-  "videoRecord": false,
-  "videoDir": "build/cify/videos/",
-  "capabilities": {
-    "android": {
-      "capabilityId": "GalaxyS6",
-      "capability": "android",
-      "platform": "ANDROID",
-      "UIType": "MobileAndroidApp",
-      "browserName": "android",
-      "deviceName": "Android Device",
-      "app": "src/test/resources/applications/DNATV.apk"
-    }
-  }
-}
-
-```
-
 ### Plug-And-Play
 
 #### Precondition for plug-and-play
@@ -110,10 +89,12 @@ Gradle wrapper is used in the project. We can trigger gradle tasks like followin
 
 Running the command below will trigger all scenarios with tag specified in **fullsuite.properties**
 
-``
+```
+
 ./gradlew cucumber -Penv=fullsuite
 
-``
+
+```
 
 #### Change browser for test execution
 
