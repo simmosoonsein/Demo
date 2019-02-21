@@ -9,8 +9,9 @@
 Demo Automaton Project is a test automation project.
 
 Two scenarios have been automated for Gymwolf webpage:
-  a) Initial customer registration
-  b) Search for specific exercise
+
+  * Initial customer registration
+  * Search for specific exercise
  
 ## How the project structure looks like?
 
